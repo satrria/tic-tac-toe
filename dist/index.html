@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tic Tac Toe Game</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<head>
+  <title>Tic Tac Toe Game</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Architects Daughter" />
+</head>
+<body>
+  
+  <div id = 'tttPlayground'>
+    <div id = 'container'>
+        <table id = 'Tboard'>
+          <tr>
+            <td id = 'c00'> </td>
+            <td id = 'c01'> </td>
+            <td id = 'c02'> </td>
+          </tr>
+          <tr>
+            <td id = 'c10'> </td>
+            <td id = 'c11'> </td>
+            <td id = 'c12'> </td>
+          </tr>
+          <tr>
+            <td id = 'c20'> </td>
+            <td id = 'c21'> </td>
+            <td id = 'c22'> </td>
+          </tr>
+        </table> 
+    </div>
+    
+    <div id = 'notificationForm'>
+      
+      <form>
+      <h3>Game Settings</h3>
+      <h4 id = '#instruction1'>How do you want to play?</h4>
+      <input id = 'one' type="radio" name = 'player' value = 'One' checked>
+        <label for="one"> One Player</label><br>
+      <input id = 'two' type="radio" name = 'player' value = 'Two'>
+        <label for="two"> Two Player</label>      
+      <h4 id = '#instruction2'>Select your token:</h4>
+      <input id = 'X' type="radio" name = 'token' value = 'X' checked>
+        <label for="X"> X</label>
+      <input id = 'O' type="radio" name = 'token' value = 'O'>
+        <label for="O"> O</label>
+      <h4 id = '#instruction3'>Difficulty:</h4>
+      <input id = 'easy' type="radio" name = 'diff'  value = 'Easy' checked>
+      <label for="easy">Easy</label><br>
+      <input id = 'hard' type="radio" name = 'diff' value = 'Hard'>
+      <label for="hard">Hard</label><br>
+      <input id = 'btnSubmit' type="button" value = 'Start' class = 'buttonGlow'>
+      </form>
+    </div>
+    <div id = 'welcomeScreen'>
+      <h3 id = 'welcome'>Gambar Awalan Tic-Tac-Toe</h3>
+    </div>  
+    <input id = 'reset' type="button" value = 'Reset'>
+  </div>
+  
+</body> 
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
